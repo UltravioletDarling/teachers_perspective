@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_test"
+            android:font="@font/lato_black"
+            android:icon="@drawable/ic_test_icon"
+            android:iconTint="@android:color/black"
+            android:title="Published Quizzes" />
+
+        <item
+            android:id="@+id/create_test"
+            android:font="@font/lato_black"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Create New Quiz"
+            android:visible="true" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/ic_menu_send"
+                android:font="@font/lato_black"
+                android:title="SignOut" />
+        </menu>
+    </item>
+    <item android:title="Info">
+        <menu>
+            <item
+                android:id="@+id/about_details"
+                android:icon="@drawable/ic_info_outline_white_24dp"
+                android:iconTint="@android:color/black"
+                android:font="@font/lato_black"
+                android:title="AboutUs" />
+            <item
+                android:id="@+id/feedback_id"
+                android:icon="@drawable/ic_feedback_black_24dp"
+                android:iconTint="@android:color/black"
+                android:font="@font/lato_black"
+                android:title="Contact Developers">
+            </item>
+        </menu>
+    </item>
+
+</menu>
